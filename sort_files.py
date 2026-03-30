@@ -2,21 +2,21 @@ import os
 import shutil
 from pathlib import Path
 
-SOURCE_DIR = "C:/Users/timsh/Downloads"
+SOURCE_DIR = "C:/Users/YourUser/Downloads"
 
 DEST_DIRS = {
-    "Видео": "D:/Видео",
-    "Фото": "D:/Фото",
-    "Музыка": "D:/Музыка",
-    "Архивы": "D:/Архивы"
+    "Видео": "D:/Video",
+    "Фото": "D:/Photo",
+    "Музыка": "D:/Music",
+    "Архивы": "D:/Archives"
 }
 
 FILE_TYPES = {
-    ".mp4": "Видео", ".mov": "Видео", ".mkv": "Видео", ".avi": "Видео",
-    ".jpg": "Фото", ".jpeg": "Фото", ".png": "Фото", ".gif": "Фото", ".webp": "Фото",
-    ".avif": "Фото",  
-    ".mp3": "Музыка", ".wav": "Музыка", ".flac": "Музыка",
-    ".zip": "Архивых", ".rar": "Архивы", ".7z": "Архивы"
+    ".mp4": "Video", ".mov": "Video", ".mkv": "Video", ".avi": "Video", ".gif": "Video",
+    ".jpg": "Photo", ".jpeg": "Photo", ".png": "Photo", ".webp": "Photo",
+    ".avif": "Photo",  
+    ".mp3": "Music", ".wav": "Music", ".flac": "Music",
+    ".zip": "Archives", "Archives": "Archives", ".7z": "Archives"
 }
 
 
