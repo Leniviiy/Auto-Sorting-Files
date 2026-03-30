@@ -5,10 +5,10 @@ from pathlib import Path
 SOURCE_DIR = "C:/Users/YourUser/Downloads"
 
 DEST_DIRS = {
-    "Видео": "D:/Video",
-    "Фото": "D:/Photo",
-    "Музыка": "D:/Music",
-    "Архивы": "D:/Archives"
+    "Video": "D:/Video",
+    "Photo": "D:/Photo",
+    "Music": "D:/Music",
+    "Archives": "D:/Archives"
 }
 
 FILE_TYPES = {
